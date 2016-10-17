@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cylinder Calculations</title>	
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/shapes.js"></script>
+</head>
+<body>
+	<h2>3-D Shape Calculator</h2>
+	<h3>Enter details below to calculate metrics:</h3>
+
+	<section>
+	<form method="get"
+          id="shapeForm">
+		<ul id="navlist">
+			<li><a href="sphere.html"><img src="img/PurpleSphere.jpg" class="shape"></a></li>
+			<li><a href="cylinder.html"><img src="img/PurpleCylinder.gif" class="shape"></a></li>
+			<li><a href="cone.html"><img src="img/PurpleCone.jpg" class="shape"></a></li>
+		</ul>
+        <fieldset>
+            <h3>Cylinders:</h3>
+            <table>
+                <tr>
+                    <td><label for="radius">Radius:</label></td>
+                    <td><input type="text"
+                               id="radius"
+                               name="radius"
+                                required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="height">Height:</label></td>
+                    <td><input type="text"
+                               id="height"
+                               name="height"
+                               required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="volume">Volume:</label></td>
+                    <td><input type="text"
+                               id="volume"
+                               name="volume"
+                               class="readonly"
+                               readonly>
+                    </td>
+					<td>
+						V&nbsp;=&nbsp;&Pi;&nbsp;r<sup>2</sup>&nbsp;h
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="area">Surface Area:</label></td>
+                    <td><input type="text"
+                               id="area"
+                               name="area"
+                               class="readonly"
+							   readonly>
+                    </td>
+					<td>
+						A&nbsp;=&nbsp;2&nbsp;&Pi;&nbsp;r<sup>2</sup>&nbsp;+&nbsp;2&nbsp;&Pi;&nbsp;r&nbsp;h
+					</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input  type="submit"
+                                class="sbmt"
+								id="submit"
+                                value="Calculate"
+								onclick="setForm('cylinder')"
+								>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input  type="button"
+                                class="sbmt"
+                                id="clear"
+                                value="Clear"
+								onclick="formClear()"
+								>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>	
+	</section>
+</body>
+</html>

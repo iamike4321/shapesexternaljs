@@ -1,0 +1,164 @@
+// From: http://www.assemblesoft.com/examples/form/simpleform.html
+	* {	
+		margin:0; 
+		padding:0;
+	}
+
+	html {
+		font: 90%/1.3 arial,sans-serif;
+		padding:1em;
+		background:#4d4d00;
+		margin:0; 
+		padding:0;
+	}
+		
+	form {
+		background:#b3b300;
+		padding:1em;
+		border:5px solid #ff66d9;
+		margin:1em;
+		width:42em;
+	}
+	
+	fieldset{
+		border:3px solid #ff66d9;
+		padding:0 0.5em 0.5em;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	label {
+		float:none;
+		width:8em;
+		display:block;
+		clear:both;
+		font-weight:bold;
+	}
+
+	input {
+		padding:0.15em;
+		width:10em;
+		border:5px solid #66004d;
+		background:#fafafa;
+		font:bold 1em arial, sans-serif;
+		/*Firefox 1-3.6:*/
+		-moz-border-radius:0.4em;
+		/*Konqueror:*/
+		-khtml-border-radius:0.4em;
+		display:block;
+		float:left;
+		color:#29a329;
+	}
+
+	input:hover, input:focus {
+		border-color:#c5c5c5;
+		background:#f6f6f6;
+	}
+	input.readonly {
+		border-color:#ff66d9;
+		background:#fafafa;
+	}
+
+	#submit, .sbmt{
+		border-color:#ff66d9;
+		background:#f6f6f6;
+		margin:0em;
+		width:11em;
+		height:35px;
+		overflow:hidden;
+		border:1;
+		display:block;
+		cursor:pointer !important; cursor:hand;
+	}
+
+	#submit:hover, .sbmt:hover {
+		/*background-position:0 -26px;*/
+		border-color:#5c5c5c;
+		background:#6f6f6f;
+		border:1;
+	}
+
+	h2	{
+		background:#ff66d9;
+	}
+	h3	{
+		background:#b3b300;
+	}
+
+	img.shape {			
+		float:right;
+		width:100px;
+		height:100px;
+	}
+
+/*	
+	.dropdownmenu
+	{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		float: left;
+		width: 100%;
+		color: #fff;
+		background-color: #ff66d9;
+	}
+
+	.dropdownmenu li {
+		margin: 0;
+		padding: 0;
+		float: left;
+		position: relative;
+		width:auto;
+		height:50px;
+		display: inline;
+	}
+	.dropdownmenu a {
+		background: #ff66d9;
+		color: #FFFFFF;
+		display: block;
+		font: bold 12px/20px sans-serif;
+		padding: 10px 25px;
+		text-align: center;
+		text-decoration: none;
+		transition: all .25s ease;
+		float: left;
+		width: 5em;
+		background-color: #ff66d9;
+		text-decoration: none;
+		border-right: 1px solid #fff;
+		}
+
+		.dropdownmenu li:hover a {
+		background: #b3b300;
+	}
+*/
+
+	ul#navlist
+	{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		float: left;
+		width: 100%;
+		background-color: #b3b300;
+	}
+
+	ul#navlist li { 
+		display: inline; 
+	}
+
+	ul#navlist li a
+	{
+		float: left;
+		width: 100px;
+		height: 100px;
+		background-color: #ff66d9;
+		padding: 0.5em 0.5em 0.5em 0.5em;
+		text-decoration: none;
+		/*border-right: 1px solid #fff;*/
+	}
+
+	ul#navlist li a:hover
+	{
+		background-color: #b3b300;
+		/*color: #FFFFFF;*/
+	}
