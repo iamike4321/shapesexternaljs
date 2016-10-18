@@ -26,9 +26,8 @@
 				
 		// Get a reference to the form elements:
 		var radius = document.getElementById('radius');
-		if (shapeType == "cylinder" || shapeType == "cone") {
-			var height = document.getElementById('height');
-		}
+		if (shapeType == "cylinder" || shapeType == "cone")
+		{var height = document.getElementById('height');}
 		
 		// Make sure there is a reference and the value is positive:
 		if (radius && (radius.value > 0)) {
@@ -80,7 +79,7 @@
 
 
 		    console.log("user cleared form");
-            console.log(shapeType);    
+            console.log(shapeType);
 
 			document.getElementById('radius').value = "0";
 			if (shapeType == "cone" || shapeType == "cylinder") {document.getElementById('height').value = "0";}

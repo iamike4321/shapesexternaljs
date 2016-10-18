@@ -34,8 +34,8 @@
       <file leaf-file-name="shapes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/shapes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+            <state relative-caret-position="495">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -172,7 +172,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.cone.html">
+  <component name="RunManager" selected="Node.js.shapes.js">
     <configuration default="false" name="shapes.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="shapes.js" working-dir="$PROJECT_DIR$/js">
       <method />
     </configuration>
@@ -225,8 +225,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cone.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.shapes.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.shapes.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.cone.html" />
       </list>
     </recent_temporary>
   </component>
@@ -240,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476747778474</updated>
-      <workItem from="1476747780121" duration="2361000" />
+      <workItem from="1476747780121" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2361000" />
+    <option name="totallyTimeSpent" value="3242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1415" height="877" extended-state="6" />
@@ -314,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/shapes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+        <state relative-caret-position="495">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
