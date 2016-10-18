@@ -48,14 +48,9 @@
 						//V = 1/3 pi r^2 h
 						volume = (1/3) * Math.PI * Math.pow(radius.value, 2) * height.value;
 						//A = pi r (r + sqrt(r^2 + h^2))
-						area = Math.PI * radius.value * (
-									parseFloat(radius.value) + (
-											Math.sqrt(
-												Math.pow(radius.value, 2) + Math.pow(height.value, 2)
-											)
-										)
-							);
-					}
+						area = Math.PI * radius.value * (parseFloat(radius.value)
+                            + (Math.sqrt(Math.pow(radius.value, 2)
+                                + Math.pow(height.value, 2))));}
 					else if (shapeType == "cylinder") {
 						// Perform the calculations:
 						//V = pi r^2 h
@@ -82,14 +77,17 @@
 	
 	function formClear() {
 		try {
+
+
+		    console.log("user cleared form");
+            console.log(shapeType);    
+
 			document.getElementById('radius').value = "0";
-			if (shapeType == "cone" || shapeType == "cylinder") {
-				document.getElementById('height').value = "0";
-			}
+			if (shapeType == "cone" || shapeType == "cylinder") {document.getElementById('height').value = "0";}
 			document.getElementById('volume').value = "";
-			document.getElementById('area').value = "";		
-		}
+			document.getElementById('area').value = "";}
 		catch (err) {
 			//Do nothing for this error, just trap it
+		    console.log(err);
 		}
 	}
